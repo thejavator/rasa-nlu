@@ -1,0 +1,140 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 6, 
+            "value": "thella", 
+            "entity": "Arabe"
+          }
+        ], 
+        "intent": "au_revoir", 
+        "text": "thella"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 3, 
+            "value": "Bye", 
+            "entity": "Anglais"
+          }
+        ], 
+        "intent": "au_revoir", 
+        "text": "Bye"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 9, 
+            "value": "Au revoir", 
+            "entity": "Francais"
+          }
+        ], 
+        "intent": "au_revoir", 
+        "text": "Au revoir"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 6, 
+            "value": "a feen", 
+            "entity": "Arabe"
+          }
+        ], 
+        "intent": "bonjour", 
+        "text": "a feen lukas"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 5, 
+            "value": "salam", 
+            "entity": "Arabe"
+          }
+        ], 
+        "intent": "bonjour", 
+        "text": "salam lukas"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 3, 
+            "value": "slt", 
+            "entity": "Francais"
+          }
+        ], 
+        "intent": "bonjour", 
+        "text": "slt lukas"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 5, 
+            "value": "hello", 
+            "entity": "Anglais"
+          }
+        ], 
+        "intent": "bonjour", 
+        "text": "hello lukas"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 7, 
+            "value": "bonjour", 
+            "entity": "Francais"
+          }
+        ], 
+        "intent": "bonjour", 
+        "text": "bonjour lukas"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 18, 
+            "value": "40000 dhs", 
+            "entity": "some_argent"
+          }
+        ], 
+        "intent": "recharge", 
+        "text": "recharge 40000 dhs"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 18, 
+            "end": 25, 
+            "value": "200 dhs", 
+            "entity": "some_argent"
+          }
+        ], 
+        "intent": "recharge", 
+        "text": "Je veux recharger 200 dhs"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 33, 
+            "end": 39, 
+            "value": "50 dhs", 
+            "entity": "some_argent"
+          }
+        ], 
+        "intent": "recharge", 
+        "text": "Je veux recharger un recharge de 50 dhs"
+      }
+    ], 
+    "entity_synonyms": [], 
+    "regex_features": []
+  }
+}
